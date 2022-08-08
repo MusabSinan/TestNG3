@@ -30,6 +30,6 @@ public class _01_Giris {
 
     @Test(priority = 3)//burada öncelik sırasını belirttik bu kodla sırası 3 bunun üçüncü bu çalıacak
     void driverikapat(){
-        System.out.println("driver kapatıldı ve çıkıldı");
+        System.out.println("driver kapatıldı ve çıkıldı ve kapatıldı");
     }
 }
