@@ -23,7 +23,7 @@ public class _02_ContactUs extends GenelWebDriver {
 
 
         driver.manage().window().maximize(); //buradaa sayfanın boyutu tam ekran yaptık butona
-            //erişebilmek için yoksa çalışmıyordu sayfada bir eleentin altında kalıyordu
+            //erişebilmek için yoksa çalışmıyordu sayfada bir elementin altında kalıyordu
         WebElement contactus= driver.findElement(By.linkText("Contact Us"));
         contactus.click();
 
