@@ -18,7 +18,7 @@ public class _02_ContactUs extends GenelWebDriver {
 
 
     @Test
-    @Parameters("mesaj")
+    @Parameters("mesaj")//burası parameters methodunun isminin verldiği yer
     void  contactUs(String gelenmesaj){
 
 

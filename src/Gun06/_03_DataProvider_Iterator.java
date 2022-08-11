@@ -32,4 +32,23 @@ public class _03_DataProvider_Iterator {
 
 
     /**************************************************************/
+
+    @Test(dataProvider="getData2")
+    void UsernameTest2(String username, String password)
+    {
+        System.out.println("Username="+username+", password="+password);
+    }
+
+    @DataProvider
+    public Iterator<Object[]> getData2()
+    {
+        List<Object[]> data= new ArrayList<>();
+        data.add(new Object[]{"Nurhayat","12121"});
+        data.add(new Object[]{"Alper","12121"});
+        data.add(new Object[]{"Uğur","12121"});
+        data.add(new Object[]{"Hakan","12121"});
+
+        return data.iterator();
+    }
+
 }
